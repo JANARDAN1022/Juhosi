@@ -8,7 +8,7 @@ import {
 import { Admin } from "../../Types/Admin";
 
 const instance = axios.create({
-    baseURL:"http://localhost:5000/api/Admin" //Backend Base Url
+    baseURL:"https://juhosi-frontend-lovat.vercel.app/api/Admin" //Backend Base Url
 });
 
 

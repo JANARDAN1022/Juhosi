@@ -8,7 +8,7 @@ import {
 import { CustomerType } from "../../Types/Customer";
 
 const instance = axios.create({
-    baseURL:"http://localhost:5000/api/Users" //Backend Base Url
+    baseURL:"https://juhosi-frontend-lovat.vercel.app/api/Users" //Backend Base Url
 });
 
 

@@ -10,7 +10,7 @@ const app = express();
 
 app.use(bodyparser.urlencoded({extended:true}));
 app.use(cors({
-  origin:'http://localhost:5173', 
+  origin:['https://juhosi-frontend-lovat.vercel.app','http://localhost:5173'], 
   credentials: true,
   exposedHeaders: 'Access-Control-Allow-Private-Network',
 }));
