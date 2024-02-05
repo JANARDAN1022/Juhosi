@@ -34,7 +34,7 @@ const AdminHome = () => {
 const FetchCustomers = useCallback(async()=>{
 try {
   setLoading(true);
-  const route = `https://juhosi-frontend-lovat.vercel.app/api/Users/AllCustomers`;
+  const route = `https://juhosi.vercel.app/api/Users/AllCustomers`;
   const config =  {headers:{"Content-Type":"application/json"},withCredentials: true};
   const {data} = await axios.get(route,config); 
   if(data && data.Customers){
